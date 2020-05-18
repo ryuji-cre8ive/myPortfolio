@@ -893,17 +893,19 @@ html{
   background-color: #1c567e;
 }
 
-
+.skillComp{
+  background-color: #915b4a;
+}
 .items{
   width: 100%;
   height: 350px;
   font-weight: normal;
-  background-color: #dda782;
   padding-top: 45px;
 }
 
 .items p{
   font-size: 30px;
+  color: #f2f1e7;
 }
 
 .items h1{
@@ -912,6 +914,7 @@ html{
   padding:0.25em 1em;
   display: inline-block;
   top:0;
+  color: #f2f1e7;
   margin-bottom: 0;
   margin-bottom: 30px;
 }

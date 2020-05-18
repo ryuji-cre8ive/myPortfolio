@@ -4,7 +4,7 @@ import React from "react"
 
 const Footer = () => {
   return(
-    <p>©︎ Copyright: RyujiKokubu</p>
+    <p className="copyright">©︎ Copyright: RyujiKokubu</p>
   );
 }
 

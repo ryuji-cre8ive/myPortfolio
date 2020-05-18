@@ -8,7 +8,7 @@ const Works = () => {
   return(
     <Layout>
       <div className="videos">
-        <h1> - Videos - </h1>
+        <h1> - Videoes - </h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/I2uW19P-hf0"
         frameborder="0" allow="accelerometer; autoplay; encrypted-media;
         gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,14 +6,14 @@ const Header = (props) => {
   const navItems = ["Home" ,"AboutMe", "Skills", "Works"];
   //普段の振る舞い
   const LinkStyles = {
-    background: '#e6beae',
+    background: '#915b4a',
     color: "black",
     fontWeight: "normal"
   }
 
   const ActiveStyles = {
     background: "white",
-    color: "#e6beae",
+    color: "#915b4a",
     fontWeight: "bold"
   }
 
@@ -37,17 +37,40 @@ const Header = (props) => {
   })
 
   return(
-    <header className="App-header">
-      <nav className="App-navbar">
-        <h2 className="App-logo"><Link to="/" style={{color: "white"}}>Ryuji's Portfolio</Link></h2>
-        <div className="App-navbar-item">
-          <ul>
-            {NavMenuLiTag}
-          </ul>
-        </div>
-      </nav>
-
-    </header>
+    <div className="asHead">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0"></meta>
+      <div className="pc">
+        <header className="App-header">
+          <nav className="App-navbar">
+            <h2 className="App-logo"><Link to="/" style={{color: "white"}}>Ryuji's Portfolio</Link></h2>
+            <div className="App-navbar-item">
+              <ul>
+                {NavMenuLiTag}
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
+      
+      <div className="phone">
+        <header className="App-header">
+          <nav className="App-navbar">
+            <h2 className="App-logo"><Link to="/" style={{color: "white"}}>Ryuji's Portfolio</Link></h2>
+            <div className="App-navbar-item">
+              <input id="nav-input" type="checkbox" class="nav-unshown"></input>
+              <label id="nav-open" for="nav-input"><span></span></label>
+              <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+              <div id="nav-content">
+                <ul>
+                {NavMenuLiTag}
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </div>
+    
   );
 }
 

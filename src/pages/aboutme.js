@@ -4,8 +4,9 @@ import React from "react"
 
 import Layout from "../components/layout"
 // import SEO from "../components/seo"
-import Image from "../components/image2"
+import Image1 from "../components/image2"
 import Introduce from "../components/introduce"
+import Image4 from "../components/image4"
 
 const AboutMe = () => {
   return(
@@ -15,7 +16,12 @@ const AboutMe = () => {
           <Introduce />
         </div>
         <div intro-pic>
-          <Image />
+          <div className="pc-intro-pic">
+            <Image1 />
+          </div>
+          <div className="phone-intro-pic">
+            <Image4 />
+          </div>
         </div>
       </div>
     </Layout>

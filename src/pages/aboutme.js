@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import Image1 from "../components/image2"
 import Introduce from "../components/introduce"
 import Image4 from "../components/image4"
+import Contact from "../components/contactMe"
 
 const AboutMe = () => {
   return(
@@ -22,6 +23,7 @@ const AboutMe = () => {
           <div className="phone-intro-pic">
             <Image4 />
           </div>
+          <Contact />
         </div>
       </div>
     </Layout>

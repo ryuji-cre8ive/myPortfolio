@@ -701,9 +701,6 @@ pre tt:after {
     border-radius: 10px;
     box-shadow: 2px 2px 10px;
   }
-  .introduceMe img{
-    padding-top: 50px;
-  }
   .phone-intro-pic {
     display: none;
   }
@@ -723,6 +720,22 @@ pre tt:after {
   
   .delete{
     text-decoration: line-through;
+  }
+
+  .contactMe{
+    display: block;
+    margin: 20px;
+  }
+  .icons{
+    display: flex;
+    text-align: center;
+    padding-left: 165px;
+    
+  }
+
+  .icons a{
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .skillComp{
@@ -861,7 +874,15 @@ html{
   top: 37%;
 }
 
+.svg-inline--fa{
+  width: 30px;
+  height: 30px;
+}
 
+.icons a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 
 .pc-intro-pic {
